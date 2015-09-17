@@ -1,9 +1,9 @@
 <?php
 
 $nom_hote_sql = "localhost";
-$nom_d_utilisateur = "root";
-$mot_de_passe = "saverne67";
-$base_de_donnees = "EvenForum";
+$nom_d_utilisateur = "adminvv5NEmI";
+$mot_de_passe = "7pyPEfGJuZpD";
+$base_de_donnees = "evenforum";
 
 try {
 
