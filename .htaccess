@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteRule ^page-([^-]*)\.html$ /page.php?compte=$1 [L]
+
+
+ErrorDocument 400 /error.php?erreur=400
+ErrorDocument 401 /error.php?erreur=401
+ErrorDocument 402 /error.php?erreur=402
+ErrorDocument 403 /error.php?erreur=403
+ErrorDocument 404 /error.php?erreur=404
+ErrorDocument 405 /error.php?erreur=405
+ErrorDocument 500 /error.php?erreur=500
+ErrorDocument 501 /error.php?erreur=501
+ErrorDocument 502 /error.php?erreur=502
+ErrorDocument 503 /error.php?erreur=503
+ErrorDocument 504 /error.php?erreur=504
+ErrorDocument 505 /error.php?erreur=505

@@ -1,0 +1,12 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "hostname": "192.168.0.106",
+  "port": "21",
+  "target": "/",
+  "ignore": [
+    ".git/**"
+  ],
+  "username": "evenf",
+  "password": "debpc"
+}

@@ -1,0 +1,262 @@
+body {
+	font-family: Tahoma;
+	height: 100%;
+	font-size: 10pt;
+	margin : auto;
+	color: #FFFFFF;
+	width: 100%;
+	clear:both;
+	background: url('/images/base/base_background.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-width: 800px;
+}
+.cadre {
+	width: 90%;
+	margin: auto;
+	margin-top: 90px;
+	min-width: 800px;
+}
+
+.menuHaut{
+	height: 40px;
+	background-color: #000000;
+	top: 0px;
+	margin: auto;
+	font-size: 12pt;
+	background-color: #000;
+	width: auto;
+	line-height: 40px;
+	height: 40px;
+	width: 100%;
+	box-shadow: 0px 2px 15px 4px rgba(255, 255, 255, 0.6); 
+	min-width: 800px;
+	position: fixed;
+}
+
+.headerInvisible{
+	margin: auto;
+	width: 90%;
+	font-weight: bold;
+}
+
+.blocMenu{
+	background-color: #000000;
+	box-shadow: 0px 2px 15px 8px rgba(255, 255, 255, 0.6); 
+	width: 20%;
+	float: left;
+	padding: 10px;
+	min-width: 350px;
+	clear: left;
+	margin-bottom: 40px;
+}
+
+.contenu{
+	background-color: #000000;
+	box-shadow: 0px 2px 15px 8px rgba(255, 255, 255, 0.6); 
+	padding: 10px;
+	margin-left: 400px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 16pt;
+	font-weight: bold;
+	border-bottom: 3px solid #FFFFFF;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-track {
+      background-color: #b46868;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+}
+
+#menu, #menu ul
+{
+        padding : 0;
+        margin : 0; 
+        list-style : none;
+        line-height : 40px;
+        text-align : center;
+}
+
+#menu
+{
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 12px; 
+}
+
+#menu a 
+{
+        display : block; 
+        padding : 0;
+        background : #000;       
+        color : #fff; 
+        text-decoration : none;
+        width : 150px; 
+        border-right: 1px solid #FFFFFF;
+		border-left: 1px solid #FFFFFF;
+}
+
+#menu li     
+{ 
+        float : left; 
+        border-right : 1px solid #fff; 
+}
+
+
+html>body #menu li
+{
+        border-right: 1px solid transparent ;
+}
+
+#menu li ul 
+{ 
+        position: absolute; 
+        width: 144px; 
+        left: -999em; 
+}
+
+
+#menu li ul li 
+{
+        border-top : 1px solid #fff; 
+}
+
+html>body #menu li ul li                
+{
+        border-top : 1px solid transparent;
+}
+
+#menu li ul ul 
+{
+        margin: -22px 0 0 144px ;  
+        border-left: 1px solid #fff ;    
+}
+
+html>body #menu li ul ul                
+{
+        border-left: 1px solid transparent ; 
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul
+{
+        left: -999em; 
+}
+
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul
+{
+        left: auto;
+        min-height: 0; 
+}
+
+#menu a:hover 
+
+{
+        color: #000;
+        background: #fff; 
+}
+
+#onglet, #onglet ul
+{
+        padding : 0;
+        margin : 0; 
+        list-style : none;
+        line-height : 40px;
+        text-align : center;
+}
+
+#onglet
+{
+        font-weight : bold; 
+        font-family : Arial; 
+        font-size : 12px; 
+}
+
+#onglet a 
+{
+        display : block; 
+        padding : 0;
+        background : #000;       
+        color : #fff; 
+        text-decoration : none;
+        width: 193px;
+	    margin-left: -10px;
+	    margin-right: -10px;
+	    margin-top: -10px;
+	    margin-bottom: 10px;
+	    border-bottom: 1px solid #FFFFFF;
+}
+#onglet li     
+{ 
+        float : left; 
+        border-right : 1px solid #fff; 
+}
+
+
+html>body #onglet li
+{
+        border-right: 1px solid transparent ;
+}
+
+#onglet li ul 
+{ 
+        position: absolute; 
+        width: 144px; 
+        left: -999em; 
+}
+
+
+#onglet li ul li 
+{
+        border-top : 1px solid #fff; 
+}
+
+html>body #onglet li ul li                
+{
+        border-top : 1px solid transparent;
+}
+
+#onglet li ul ul 
+{
+        margin: -22px 0 0 144px ;  
+        border-left: 1px solid #fff ;    
+}
+
+html>body #onglet li ul ul                
+{
+        border-left: 1px solid transparent ; 
+}
+
+#onglet li:hover ul ul, #onglet li.sfhover ul ul
+{
+        left: -999em; 
+}
+
+
+#onglet li:hover ul, #onglet li li:hover ul, #onglet li.sfhover ul, #onglet li li.sfhover ul
+{
+        left: auto;
+        min-height: 0; 
+}
+
+#onglet a:hover 
+
+{
+        color: #000;
+        background: #fff; 
+}

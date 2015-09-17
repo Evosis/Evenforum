@@ -1,0 +1,6 @@
+AuthUserFile "/var/www/evenforum.com/htdocs/admin/.htpasswd"
+AuthName "Restricted Access"
+AuthType Basic
+<limit GET>
+require valid-user
+</Limit> 

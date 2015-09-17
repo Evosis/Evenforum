@@ -1,0 +1,57 @@
+.appFenetre {
+	background-color: #D8D8D8;
+	color: #43453A;
+	border-radius: 5px;
+	border: 2px solid #949494;
+	width: 500px;
+	height: 250px;
+	padding: 10px;
+	position: fixed;
+}
+.appFenetreMenu {
+	background-color: #949494;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 3px 3px 0 0;
+	width: 100%;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+.appFenetreBouton {
+	background-color: #949494;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 3px 3px 0 0;
+	width: 65px;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: -10px;
+	margin-top: -20px;
+}
+.appFenetreContenu {
+	padding-top: 10px;
+	padding-right: 10px;
+	overflow: auto;
+	width: 100%;
+	height: 240px;
+	margin-right: -10px;
+	word-wrap: break-word;
+}
+.appAgrandir {
+	text-decoration: none;
+	color: #80FF80;
+}
+
+.appReduire {
+	text-decoration: none;
+	color: #FFFF80;
+}
+
+.appFermer {
+	text-decoration: none;
+	color: #FF8080;
+}

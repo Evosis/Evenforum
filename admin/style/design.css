@@ -1,0 +1,110 @@
+body {
+	font-family: basic;
+	font-size: 10pt;
+	margin : auto;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	clear:both;
+}
+
+.barrePrincipale {
+	font-family: tele-marines;
+	font-size: 29pt;
+	background-color: #3a3a3a;
+	color: #FFFFFF;
+	height: 40px;
+	padding: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+.menu {
+	font-weight: bold;
+	font-size: 12pt;
+	background-color: #3a3a3a;
+	color: #FFFFFF;
+	width: 240px;
+	float: left;
+	height: 100%;
+	position: fixed;
+	border-top: 1px solid #444444;
+}
+
+.infoCompte {
+	padding: 10px;
+	border-bottom: 1px solid #000000;
+	height: 103px;
+}
+
+.avatar_case_compte img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-right: 10px;
+	border: 1px solid #292929;
+	opacity: 1;
+	border-radius: 360px;
+}
+
+.menuTitre {
+	padding: 5px;
+	padding-left: 10px;
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #000000;
+}
+
+.menuOnglet {
+	background-color: #3a3a3a;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 10px;
+	width: 220px;
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #000000;
+	text-decoration: none;
+}
+
+.menuOngletFocus {
+	background-color: #232323;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 10px;
+	width: 220px;
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #000000;
+	text-decoration: none;
+}
+
+a.menuOnglet:hover {
+	background-color: #232323;
+}
+
+.cadre {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	padding: 15px;
+	margin-left: 240px;
+}
+
+.titre {
+	font-size: 29pt;
+	font-weight: bold;
+}
+
+.sousTitre {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.separate {
+	border-bottom: 1px solid #BEBEBE;
+}
+
+.admin {
+	color: #ff2b47;
+}
+
+.codeur {
+	color: #882bff;
+}

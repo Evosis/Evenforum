@@ -1,0 +1,149 @@
+html {
+ 	height: 100%;
+}
+body {
+	background: url('../images/design/background.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+	font-family: Tahoma;
+	font-size: 10pt;
+	height: 100%;
+	color: white;
+	margin: auto;
+	clear:both;
+	overflow: hidden;
+}
+
+.os {
+	width: 100%;
+	margin: auto;
+}
+.bureau {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	margin-top: 18px;
+}
+
+table.barreHaut {
+	background-color: #000000;
+	font-size: 12pt;
+	width: 100%;
+	height: 18px;
+}
+
+th.menuGauche {
+	text-align: left;
+	width: 40%;
+}
+
+th.menuCentre {
+	width: 20%;
+}
+
+th.menuDroit {
+	text-align: right;
+	width: 40%;
+}
+
+.menuNom:hover {
+	background-color: #566D9A;
+	color: #1B1D38;
+}
+
+table.sousMenu {
+	background-color: #000000;
+	font-size: 12pt;
+	text-align: left;
+	min-width: 7%;
+	display: none;
+	margin-top: -1px;
+	position: fixed;
+}
+
+table.sousMenu3 {
+	background-color: #000000;
+	font-size: 12pt;
+	text-align: left;
+	min-width: 7%;
+	display: none;
+	margin-top: -1px;
+	position: fixed;
+	margin-left: 171px;
+}
+
+table.sousMenu2 {
+	background-color: #000000;
+	font-size: 12pt;
+	text-align: left;
+	float: right;
+	min-width: 7%;
+	display: none;
+	margin-top: -1px;
+	position: fixed;
+	right: 0px;
+}
+
+th.sousMenuTh:hover {
+	background-color: #566D9A;
+	color: #1B1D38;
+}
+
+label {
+	display : block;
+	width : 150px;
+	float : left;
+}
+
+input.labelCo {
+	border-radius: 3px;
+	border: 1px solid #727CC2;
+	color: #43453A;
+	width: 350px;
+	height: 25px;
+	margin-top: -4px;
+	padding-left: 5px;
+}
+
+input.labelCo:hover {
+	border-radius: 3px;
+	border: 2px solid #727CC2;
+	width: 350px;
+	height: 25px;
+	margin-top: -4px;
+}
+
+input.inputCo {
+	border-radius: 3px;
+	border: 1px solid #727CC2;
+	color: #43453A;
+	height: 25px;
+	margin-top: -4px;
+}
+
+input.inputCo:hover {
+	border-radius: 3px;
+	border: 2px solid #727CC2;
+	height: 25px;
+	margin-top: -4px;
+}
+
+
+.connexion {
+	background-color: #D8D8D8;
+	color: #43453A;
+	border-radius: 3px;
+	width: 500px;
+	padding: 25px;
+	display: none;
+}
+
+.inscription {
+	background-color: #D8D8D8;
+	color: #43453A;
+	border-radius: 3px;
+	width: 500px;
+	padding: 25px;
+	display: none;
+}
